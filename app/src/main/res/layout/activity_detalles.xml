@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainRegister">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/backpd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="61dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="Task"
+            android:textAlignment="center"
+            android:textSize="70sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="67dp" />
+
+        <EditText
+            android:id="@+id/named"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/ColorPrimary"
+            android:ems="10"
+            android:hint="Task"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="67dp" />
+
+        <EditText
+            android:id="@+id/detaild"
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:backgroundTint="@color/ColorPrimary"
+            android:ems="10"
+            android:hint="Details"
+            android:inputType="text" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <Button
+            android:id="@+id/edit"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:backgroundTint="@color/ColorPrimary"
+            android:text="Edit"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/delete"
+            style="@style/Widget.Material3.Button"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:backgroundTint="@color/ColorPrimary"
+            android:text="Delete"
+            app:cornerRadius="15sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="101dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
