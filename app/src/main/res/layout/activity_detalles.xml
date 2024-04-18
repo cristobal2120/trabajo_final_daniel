@@ -24,7 +24,12 @@
             android:id="@+id/backpd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Back" />
+            android:fontFamily="@font/eb_garamond"
+            android:shadowColor="#F4F3F3"
+            android:text="Back."
+            android:textColor="#EFEBEB"
+            android:textColorHint="#F6F5F5"
+            android:textColorLink="#F8F5F5" />
 
         <Space
             android:layout_width="match_parent"
@@ -34,9 +39,12 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
+            android:fontFamily="@font/archivo_black"
             android:text="Task"
             android:textAlignment="center"
+            android:textColor="#F3ECEC"
+            android:textColorHint="#F6F3F3"
+            android:textColorLink="#FAFAFA"
             android:textSize="70sp" />
 
         <Space
@@ -47,10 +55,12 @@
             android:id="@+id/named"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="@android:color/holo_blue_bright"
             android:ems="10"
-            android:hint="Task"
-            android:inputType="text" />
+            android:fontFamily="@font/eb_garamond"
+            android:hint="Task."
+            android:inputType="text"
+            android:textColorHint="#EDE7E7" />
 
         <Space
             android:layout_width="match_parent"
@@ -60,10 +70,12 @@
             android:id="@+id/detaild"
             android:layout_width="match_parent"
             android:layout_height="84dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="#03A9F4"
             android:ems="10"
-            android:hint="Details"
-            android:inputType="text" />
+            android:fontFamily="@font/eb_garamond"
+            android:hint="Details."
+            android:inputType="text"
+            android:textColorHint="#FAFAFA" />
 
         <Space
             android:layout_width="match_parent"
@@ -74,8 +86,9 @@
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="69dp"
-            android:backgroundTint="@color/ColorPrimary"
-            android:text="Edit"
+            android:backgroundTint="#1CCFB4"
+            android:fontFamily="@font/eb_garamond"
+            android:text="Edit."
             app:cornerRadius="15sp" />
 
         <Button
@@ -83,8 +96,9 @@
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="69dp"
-            android:backgroundTint="@color/ColorPrimary"
-            android:text="Delete"
+            android:backgroundTint="#1CCFB4"
+            android:fontFamily="@font/eb_garamond"
+            android:text="Delete."
             app:cornerRadius="15sp" />
 
         <Space

@@ -30,9 +30,13 @@
                 android:id="@+id/textView2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="@font/archivo_black"
+                android:shadowColor="#FBF9F9"
                 android:text="Tasks"
                 android:textAlignment="center"
+                android:textColor="#F8F3F3"
+                android:textColorHighlight="#FBF6F6"
+                android:textColorLink="#FAFAFA"
                 android:textSize="70sp" />
         </LinearLayout>
     </FrameLayout>
@@ -40,7 +44,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="84dp"
-        android:background="#FFEB3B"
+        android:background="#1CCFB4"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -54,7 +58,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Home"
+            android:fontFamily="@font/eb_garamond"
+            android:text="Home."
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp" />
@@ -74,7 +79,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cuenta"
+            android:fontFamily="@font/eb_garamond"
+            android:text="Cuenta."
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp" />

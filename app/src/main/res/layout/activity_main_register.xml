@@ -24,7 +24,9 @@
             android:id="@+id/backpd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Back" />
+            android:fontFamily="@font/eb_garamond"
+            android:text="Back."
+            android:textColorHint="#FFFFFF" />
 
         <Space
             android:layout_width="match_parent"
@@ -33,10 +35,13 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-black"
+            android:layout_height="194dp"
+            android:fontFamily="@font/archivo_black"
             android:text="Add Tasks"
             android:textAlignment="center"
+            android:textColor="#F6F2F2"
+            android:textColorHint="#FFFCFC"
+            android:textColorLink="#FAF6F6"
             android:textSize="70sp" />
 
         <Space
@@ -47,10 +52,14 @@
             android:id="@+id/named"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="#1CCFB4"
             android:ems="10"
-            android:hint="Task"
-            android:inputType="text" />
+            android:fontFamily="@font/eb_garamond"
+            android:hint="Task."
+            android:inputType="text"
+            android:textColor="#FBF6F6"
+            android:textColorHint="#F8F4F4"
+            android:textColorLink="#F8F3F3" />
 
         <Space
             android:layout_width="match_parent"
@@ -60,10 +69,12 @@
             android:id="@+id/detaild"
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="#1CCFB4"
             android:ems="10"
-            android:hint="Details"
-            android:inputType="text" />
+            android:fontFamily="@font/eb_garamond"
+            android:hint="Details."
+            android:inputType="text"
+            android:textColorHint="#F3ECEC" />
 
         <ProgressBar
             android:id="@+id/load"
@@ -76,8 +87,9 @@
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="69dp"
-            android:backgroundTint="@color/ColorPrimary"
-            android:text="Add"
+            android:backgroundTint="#1CCFB4"
+            android:fontFamily="@font/eb_garamond"
+            android:text="Add."
             app:cornerRadius="15sp" />
 
         <Space

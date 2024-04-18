@@ -34,9 +34,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="sans-serif-medium"
+                android:fontFamily="@font/archivo_black"
+                android:shadowColor="#F8F8F8"
                 android:text="App"
                 android:textAlignment="textEnd"
+                android:textColor="#FFFCFC"
                 android:textSize="70sp" />
 
             <TextView
@@ -44,9 +46,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:fontFamily="sans-serif-black"
+                android:fontFamily="@font/archivo_black"
                 android:text="Task"
-                android:textColor="@color/ColorPrimary"
+                android:textColor="#1CCFB4"
                 android:textSize="70sp" />
 
         </LinearLayout>
@@ -59,19 +61,26 @@
             android:id="@+id/Email"
             android:layout_width="match_parent"
             android:layout_height="61dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="#1CCFB4"
             android:ems="10"
-            android:hint="Email"
-            android:inputType="textEmailAddress" />
+            android:fontFamily="@font/eb_garamond"
+            android:hint="Email."
+            android:inputType="textEmailAddress"
+            android:textColor="#FDFBFB"
+            android:textColorHighlight="#FAF6F6"
+            android:textColorHint="#F3F1F1" />
 
         <EditText
             android:id="@+id/Pass"
             android:layout_width="match_parent"
             android:layout_height="57dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="#1CCFB4"
             android:ems="10"
-            android:hint="Contraseña"
-            android:inputType="textPassword" />
+            android:fontFamily="@font/eb_garamond"
+            android:hint="Contraseña."
+            android:inputType="textPassword"
+            android:textColor="#F8F5F5"
+            android:textColorHint="#F8F6F6" />
 
         <ProgressBar
             android:id="@+id/carga"
@@ -84,9 +93,10 @@
             style="@style/Widget.Material3.Button"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:backgroundTint="@color/ColorPrimary"
+            android:backgroundTint="#FFFFFF"
             android:cursorVisible="false"
-            android:text="Iniciar Sesion"
+            android:fontFamily="@font/eb_garamond"
+            android:text="Iniciar Sesion."
             app:cornerRadius="15sp" />
 
         <Space
@@ -97,8 +107,10 @@
             android:id="@+id/Registro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Crear cuenta"
-            android:textAlignment="center" />
+            android:fontFamily="@font/eb_garamond"
+            android:text="Crear Cuenta."
+            android:textAlignment="center"
+            android:textColor="#FBFBFB" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -15,25 +15,34 @@
             android:id="@+id/fecha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fecha" />
+            android:fontFamily="@font/eb_garamond"
+            android:text="Fecha."
+            android:textColor="#F3EBEB"
+            android:textColorHint="#FAFAFA" />
 
         <TextView
             android:id="@+id/nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Nombre" />
+            android:fontFamily="@font/eb_garamond"
+            android:text="Nombre."
+            android:textColor="#EFE8E8" />
 
         <TextView
             android:id="@+id/infod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Detalles" />
+            android:fontFamily="@font/eb_garamond"
+            android:text="Detalles."
+            android:textColor="#F6F0F0" />
 
         <TextView
             android:id="@+id/estado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Estado" />
+            android:fontFamily="@font/eb_garamond"
+            android:text="Estado."
+            android:textColor="#F3ECEC" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
